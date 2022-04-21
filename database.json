@@ -1,0 +1,362 @@
+[
+    {
+        "building" : "One Trium",
+        "address" : "Pacific Rim, Alabang, Muntinlupa, Metro Manila",
+        "link" : "./vr/one trium/index.html"
+    },
+    {
+        "building" : "Keyland - 4th Floor",
+        "address" : "Salcedo Village, 6797 Ayala Ave",
+        "link" : "https://app.lapentor.com/sphere/keyland-4th-floor"
+    },
+    {
+        "building" : "Robinsons Summit Center - 26th Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "https://app.lapentor.com/sphere/robinsons-summit-center-26th-floor"
+    },
+    {
+        "building" : "Robinsons Summit Center - 32nd Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "https://app.lapentor.com/sphere/robinsons-summit-center-32nd-floor"
+    },
+    {
+        "building" : "Robinsons Summit Center - 33th Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "https://app.lapentor.com/sphere/robinsons-summit-center-33rd-floor"
+    },
+    {
+        "building" : "Robinsons Summit Center - 34th Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "https://app.lapentor.com/sphere/robinsons-summit-center-34th-floor"
+    },
+    {
+        "building" : "Rockwell Business Center - 11th Floor",
+        "address" : "Sheridan St, corner United St, Mandaluyong, 1554 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/rockwell-business-center-sheridan-11th-floor"
+    },
+    {
+        "building" : "SM Aura",
+        "address" : "26th Street, Corner McKinley Pkwy, Taguig, 1630 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/sm-aura"
+    },
+    {
+        "building" : "MDI - 15th Floor Unit",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/mdi-15th-floor-unit"
+    },
+    {
+        "building" : "MDI - 8th Floor Unit",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/mdi-8th-floor-unit"
+    },
+    {
+        "building" : "Brilliance",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/brilliance"
+    },
+    {
+        "building" : "Figari One/NEO",
+        "address" : "9th Floor Three Neo Building, 3rd avenue, corner 30th St, Taguig, 1634 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/figari-oneneo"
+    },
+    {
+        "building" : "Arch, Pacific Star",
+        "address" : "4th Floor, Pacific Star Building Sen. Gil J. Puyat Ave, corner Makati Ave, Makati, 1226 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/arch-pacific-star"
+    },
+    {
+        "building" : "Lepanto",
+        "address" : "8747 Paseo Roxas, Makati",
+        "link" : "https://app.lapentor.com/sphere/lepanto"
+    },
+    {
+        "building" : "San Fernando, Pampanga",
+        "address" : "San Fernando, Pampanga",
+        "link" : "https://app.lapentor.com/sphere/san-fernando-pampanga"
+    },
+    {
+        "building" : " ASCM - Silang, Cavite",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/ascm-silang-cavite"
+    },
+    {
+        "building" : "5th Floor - Filinvest, EDSA",
+        "address" : "Mandaluyong, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/5th-floor-filinvest-edsa"
+    },
+    {
+        "building" : "3rd Floor - Filinvest, EDSA",
+        "address" : "Mandaluyong, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/3rd-floor-filinvest-edsa"
+    },
+    {
+        "building" : "Worldwide Corporate Center",
+        "address" : "Shaw Blvd, Mandaluyong, 1554 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/worldwide-corporate-center-shaw-blvd-mandaluyong-1554-metro-manila"
+    },
+    {
+        "building" : "Penthouse - Atlas Building, 107, Aguirre St.",
+        "address" : "L&F Building, 107 Aguirre, Legazpi Village, Makati, 1229 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/penthouse-atlas-building-107-aguirre-st"
+    },
+    {
+        "building" : "10th Floor - Atlas Offices, 107, Aguirre St.",
+        "address" : "L&F Building, 107 Aguirre, Legazpi Village, Makati, 1229 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/10th-floor-atlas-offices-107-aguirre-st"
+    },
+    {
+        "building" : "13th Floor - Atlas Building, 107, Aguirre St.",
+        "address" : "L&F Building, 107 Aguirre, Legazpi Village, Makati, 1229 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/13th-floor-atlas-building-107-aguirre-st"
+    },
+    {
+        "building" : "9th Floor - Atlas Building, 107, Aguirre St.",
+        "address" : "L&F Building, 107 Aguirre, Legazpi Village, Makati, 1229 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/9th-floor-atlas-building-107-aguirre-st"
+    },
+    {
+        "building" : "837 Building - 5th Floor, Unit 2",
+        "address" : "837 Arnaiz Avenue, Makati City",
+        "link" : "https://app.lapentor.com/sphere/837-building-5th-floor-unit-2"
+    },
+    {
+        "building" : "837 Building - 6th Floor",
+        "address" : "837 Arnaiz Avenue, Makati City",
+        "link" : "https://app.lapentor.com/sphere/837-building-6th-floor"
+    },
+    {
+        "building" : "837 Building - 2nd Floor",
+        "address" : "837 Arnaiz Avenue, Makati City",
+        "link" : "https://app.lapentor.com/sphere/837-building-2nd-floor"
+    },
+    {
+        "building" : "837 Building - 3rd Floor",
+        "address" : "837 Arnaiz Avenue, Makati City",
+        "link" : "https://app.lapentor.com/sphere/837-building-3rd-floor"
+    },
+    {
+        "building" : "837 Building - 5th Floor, Unit 1",
+        "address" : "837 Arnaiz Avenue, Makati City",
+        "link" : "https://app.lapentor.com/sphere/837-building-5th-floor-unit-1"
+    },
+    {
+        "building" : "iSquare",
+        "address" : "15 Meralco Ave, San Antonio, Pasig, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/isquare"
+    },
+    {
+        "building" : "Sheridan corner pines I",
+        "address" : "Mandaluyong, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/sheridan-corner-pines-i"
+    },
+    {
+        "building" : "Sheridan corner pines II",
+        "address" : "Mandaluyong, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/sheridan-corner-pines-ii"
+    },
+    {
+        "building" : "Millennium Place - 2nd Floor",
+        "address" : "Unit 102 Millenium Place, Meralco Ave, San Antonio, Pasig, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/millennium-place-2nd-floor"
+    },
+    {
+        "building" : "Agustin",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/agustin"
+    },
+    {
+        "building" : "Agustin II",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/agustin-ii"
+    },
+    {
+        "building" : "Casa de Acorn, Zambales",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/casa-de-acorn-zambales"
+    },
+    {
+        "building" : "Millennium Place - Ground Floor",
+        "address" : "Unit 102 Millenium Place, Meralco Ave, San Antonio, Pasig, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/millennium-place-ground-floor"
+    },
+    {
+        "building" : "Aurora Boulevard",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/aurora-boulevard"
+    },
+    {
+        "building" : "Corinthian Plaza, Unit 1",
+        "address" : "Legaspi, Legazpi Village, Makati, 1200 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/corinthian-plaza-unit-1"
+    },
+    {
+        "building" : "Peninsula Building, Unit 1",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/peninsula-building-unit-1"
+    },
+    {
+        "building" : "11th Corporate Center-769.78sqm.",
+        "address" : "1634, 11th St, Taguig, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/11th-corporate-center-76978sqm"
+    },
+    {
+        "building" : "Antel 2000, 24th flr.",
+        "address" : "Antel Corporate Center, Salcedo Village, 121 Valero, Makati, 1227 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/antel-2000-24th-flr"
+    },
+    {
+        "building" : "Antel 2000, 25th flr.",
+        "address" : "Antel Corporate Center, Salcedo Village, 121 Valero, Makati, 1227 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/antel-2000-25th-flr"
+    },
+    {
+        "building" : "Peninsula Building Unit 2",
+        "address" : "https://app.lapentor.com/sphere/peninsula-building-unit-2",
+        "link" : "N/A"
+    },
+    {
+        "building" : "6789, Unit 1, 7F, 421.19sqm.",
+        "address" : "6789 Ayala Ave, Makati, 1206 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/6789-unit-1-7f-42119sqm"
+    },
+    {
+        "building" : "6789, Unit 2, 7F, 421.19sqm.",
+        "address" : "6789 Ayala Ave, Makati, 1206 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/6789-unit-2-7f-42119sqm"
+    },
+    {
+        "building" : "6789, Unit 33, 7F, 267.32sqm.",
+        "address" : "6789 Ayala Ave, Makati, 1206 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/6789-unit-33-7f-26732sqm"
+    },
+    {
+        "building" : "Salustiana, 4F, 300 sqm",
+        "address" : "104 Paseo de Roxas, Legazpi Village, Makati, 1200 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/salustiana-4f-300-sqm"
+    },
+    {
+        "building" : "Salustiana, 6F, 300 sqm",
+        "address" : "104 Paseo de Roxas, Legazpi Village, Makati, 1200 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/salustiana-6f-300-sqm"
+    },
+    {
+        "building" : "Insular Healthcare Building, 6F, 368 sqm",
+        "address" : "2nd Floor Insular Health Care Building, 167 Legazpi Street, Legaspi Village, Makati, 1229 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/insular-healthcare-building-6f-368-sqm"
+    },
+    {
+        "building" : "LISP 3 - Shen Long",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/lisp-3-shen-long"
+    },
+    {
+        "building" : "University Ave - Malabon",
+        "address" : "Potrero, Malabon, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/university-ave-malabon"
+    },
+    {
+        "building" : "LISP 2 - 3A Mountain Drive",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/lisp-2-3a-mountain-drive"
+    },
+    {
+        "building" : "Carmelray Industrial Park 2 - Lot B1-6",
+        "address" : "L 1 Hwy, Calamba",
+        "link" : "https://app.lapentor.com/sphere/carmelray-industrial-park-2-lot-b1-6"
+    },
+    {
+        "building" : "Carmelray Industrial Park 2 - Lot C3-8",
+        "address" : "L 1 Hwy, Calamba",
+        "link" : "https://app.lapentor.com/sphere/carmelray-industrial-park-2-lot-c3-8"
+    },
+    {
+        "building" : "2251 IT HUB",
+        "address" : "2251 Chino Roces Ave, Makati, 1231 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/2251-it-hub"
+    },
+    {
+        "building" : "LTI Phase 7 - Metrococo Bldg 1B",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/lti-phase-7-metrococo-bldg-1b"
+    },
+    {
+        "building" : "LISP 1 - 3,024 sqm",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/lisp-1-3024-sqm"
+    },
+    {
+        "building" : "5 Zaragoza by TFA",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/5-zaragoza-by-tfa"
+    },
+    {
+        "building" : "2251 IT HUB",
+        "address" : "2251 Chino Roces Ave, Makati, 1231 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/2251-it-hub-1620628596"
+    },
+    {
+        "building" : "Orient Goldcrest B11 Unit 11-16",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/orient-goldcrest-b11-unit-11-16"
+    },
+    {
+        "building" : "Man Tower",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/man-tower"
+    },
+    {
+        "building" : "Pacific Plaza Tower (48C and D)",
+        "address" : "4th Avenue, West Cresent Park, Fort Bonifacio Global City, Taguig, 1634 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/pacific-plaza-tower-48c-and-d"
+    },
+    {
+        "building" : "17 Libra by TFA",
+        "address" : "N/A",
+        "link" : "https://app.lapentor.com/sphere/17-libra-by-tfa"
+    },
+    {
+        "building" : "Filmore Apartments",
+        "address" : "Filmore St., Makati, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/filmore-apartments"
+    },
+    {
+        "building" : "BDO Valero",
+        "address" : "BDO TOWERS VALERO, 8741 Paseo de Roxas, Makati, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/bdo-valero"
+    },
+    {
+        "building" : "BDO Valero 150sqm",
+        "address" : "BDO TOWERS VALERO, 8741 Paseo de Roxas, Makati, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/bdo-valero-150sqm"
+    },
+    {
+        "building" : "ARCH Offices Citibank Center",
+        "address" : "20F, BDO Towers Paseo, 8741 Paseo de Roxas, Makati, Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/arch-offices-citibank-center"
+    },
+    {
+        "building" : "Robinsons Summit Center 18th Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "https://app.lapentor.com/sphere/18th-floor-ceo-inc"
+    },
+    {
+        "building" : "Robinsons Summit Center 14th Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "https://app.lapentor.com/sphere/14th-floor-ceo-inc-1611559686"
+    },
+    {
+        "building" : "Alphaland Corporate Tower 31st Floor",
+        "address" : "7232 Ayala Ave, Makati, 1209 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/alphaland-corporate-tower-31st-floor"
+    },
+    {
+        "building" : "Alphaland Corporate Tower 30th Floor",
+        "address" : "7232 Ayala Ave, Makati, 1209 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/alphaland-corporate-tower-30th-floor"
+    },
+    {
+        "building" : "Alphaland Corporate Tower 7th Floor",
+        "address" : "7232 Ayala Ave, Makati, 1209 Metro Manila",
+        "link" : "https://app.lapentor.com/sphere/alphaland-corporate-tower-7th-floor"
+    }
+]
