@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour appversion="6.1.13" apprev="18080" start="node1">
-  <panorama id="node1">
+  <panorama id="node1" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.413458" levelingroll="-0.408742">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -23,11 +23,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node2">
+  <panorama id="node2" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.443011" levelingroll="-0.2234">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -50,11 +50,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node3">
+  <panorama id="node3" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.0532973" levelingroll="-0.184635">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -78,11 +78,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node4">
+  <panorama id="node4" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.168119" levelingroll="-0.0491081">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -105,11 +105,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node5">
+  <panorama id="node5" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.404358" levelingroll="0.373273">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -133,11 +133,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node6">
+  <panorama id="node6" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.00239964" levelingroll="0.000578422">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -159,11 +159,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node7">
+  <panorama id="node7" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.110767" levelingroll="-0.07781059999999999">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -186,11 +186,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node9">
+  <panorama id="node9" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.179588" levelingroll="-0.134396">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -213,11 +213,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node10">
+  <panorama id="node10" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.491996" levelingroll="0.43596">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -239,11 +239,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node12">
+  <panorama id="node12" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.357921" levelingroll="-0.102414">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -266,11 +266,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node13">
+  <panorama id="node13" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.461124" levelingroll="-0.320846">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -294,11 +294,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node14">
+  <panorama id="node14" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.367992" levelingroll="-0.398045">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -321,11 +321,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node15">
+  <panorama id="node15" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.49819" levelingroll="-0.310344">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -348,11 +348,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node16">
+  <panorama id="node16" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.277163" levelingroll="0.06286799999999999">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -376,11 +376,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node17">
+  <panorama id="node17" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="1.26039" levelingroll="-0.5342440000000001">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -403,11 +403,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node18">
+  <panorama id="node18" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.06535100000000001" levelingroll="-0.00287055">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -432,11 +432,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node19">
+  <panorama id="node19" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.0233001" levelingroll="-0.09017260000000001">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -458,11 +458,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node20">
+  <panorama id="node20" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.900361" levelingroll="-0.286944">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -484,11 +484,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node21">
+  <panorama id="node21" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.577067" levelingroll="-0.500069">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -513,11 +513,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node22">
+  <panorama id="node22" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.882344" levelingroll="-0.138129">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -541,11 +541,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node23">
+  <panorama id="node23" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.427885" levelingroll="0.381654">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -568,11 +568,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node24">
+  <panorama id="node24" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0" levelingroll="0">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -596,11 +596,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node25">
+  <panorama id="node25" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.07759340000000001" levelingroll="-0.0812375">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -623,11 +623,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node26">
+  <panorama id="node26" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.350775" levelingroll="-0.231676">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -649,11 +649,11 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node27">
+  <panorama id="node27" hideabout="1">
     <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.905118" levelingroll="0.130456">
       <level preload="0" width="1440" predecode="0" height="1440"/>
       <level preload="0" width="720" predecode="0" height="720"/>
@@ -676,7 +676,7 @@
     <media/>
     <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
     <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="1" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="0" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
