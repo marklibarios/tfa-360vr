@@ -5,6 +5,11 @@
         "link" : "./vr/one trium/index.html"
     },
     {
+        "building" : "Robinsons Summit Center - 34th Floor",
+        "address" : "6783 Ayala Avenue, Makati, Philippines",
+        "link" : "./vr/robinsons summit center/index.html"
+    },
+    {
         "building" : "Keyland - 4th Floor",
         "address" : "Salcedo Village, 6797 Ayala Ave",
         "link" : "https://app.lapentor.com/sphere/keyland-4th-floor"
@@ -23,11 +28,6 @@
         "building" : "Robinsons Summit Center - 33th Floor",
         "address" : "6783 Ayala Avenue, Makati, Philippines",
         "link" : "https://app.lapentor.com/sphere/robinsons-summit-center-33rd-floor"
-    },
-    {
-        "building" : "Robinsons Summit Center - 34th Floor",
-        "address" : "6783 Ayala Avenue, Makati, Philippines",
-        "link" : "https://app.lapentor.com/sphere/robinsons-summit-center-34th-floor"
     },
     {
         "building" : "Rockwell Business Center - 11th Floor",
