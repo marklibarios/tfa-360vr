@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: tfa_default_skin.ggsk
-// Generated 2022-04-21T16:15:41
+// Generated 2022-05-06T10:12:21
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
@@ -181,8 +181,8 @@ function pano2vrSkin(player,base) {
 		me._image_1.ggUpdatePosition=function (useTransition) {
 		}
 		me.divSkin.appendChild(me._image_1);
-		el=me._text_1=document.createElement('div');
-		els=me._text_1__text=document.createElement('div');
+		el=me._text_10=document.createElement('div');
+		els=me._text_10__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="Text 1";
@@ -193,8 +193,8 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='height : 50px;';
 		hs+='position : absolute;';
-		hs+='right : 7px;';
-		hs+='top : 16px;';
+		hs+='right : -61px;';
+		hs+='top : 17px;';
 		hs+='visibility : inherit;';
 		hs+='width : 336px;';
 		hs+='pointer-events:auto;';
@@ -208,15 +208,61 @@ function pano2vrSkin(player,base) {
 		hs+='width: 336px;';
 		hs+='height: auto;';
 		hs+='border: 0px solid #000000;';
-		hs+='color: rgba(255,255,127,1);';
-		hs+='font-size: 16px;';
-		hs+='font-weight: inherit;';
+		hs+='color: rgba(16,86,136,1);';
+		hs+='font-size: 20px;';
+		hs+='font-weight: bold;';
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Tan, Frankum & Associates<br\/>Commercial Realty Inc. | 8553-2995";
+		els.innerHTML="TFA Commercial Realty";
+		el.appendChild(els);
+		me._text_10.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._text_10.ggUpdatePosition=function (useTransition) {
+		}
+		me.divSkin.appendChild(me._text_10);
+		el=me._text_1=document.createElement('div');
+		els=me._text_1__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Text 1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='height : 39px;';
+		hs+='position : absolute;';
+		hs+='right : -58px;';
+		hs+='top : 41px;';
+		hs+='visibility : inherit;';
+		hs+='width : 332px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='100% 0%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='right: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 332px;';
+		hs+='height: auto;';
+		hs+='border: 0px solid #000000;';
+		hs+='color: rgba(61,155,70,1);';
+		hs+='font-size: 19px;';
+		hs+='font-weight: bold;';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		els.innerHTML="8553-2995";
 		el.appendChild(els);
 		me._text_1.ggIsActive=function() {
 			return false;
