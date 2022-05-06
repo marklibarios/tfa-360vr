@@ -1,686 +1,686 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.13" apprev="18080" start="node1">
-  <panorama id="node1" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.413458" levelingroll="-0.408742">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+<tour apprev="18080" appversion="6.1.13" start="node1">
+  <panorama hideabout="1" id="node1">
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.413458" leveltilesize="510" levelingroll="-0.408742" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-93.92" projection="4" tilt="-3.1" fov="102.5"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-93.92" fov="102.5" tilt="-3.1" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Elevator" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:13 am" comment="" nodeid="node1" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-97.16" tilt="-17.38" title="Reception Area" url="{node2}" target="79.8/0.0/83.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-271.99" tilt="-15.74" title="Hallway X" url="{node27}" target="78.9/-2.9/83.7" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:13 am" comment="" title="Elevator" latitude="" source="" copyright="" nodeid="node1" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node2}" skinid="ht_node" target="79.8/0.0/83.7" pan="-97.16" title="Reception Area" tilt="-17.38" description="" id="Point01"/>
+      <hotspot url="{node27}" skinid="ht_node" target="78.9/-2.9/83.7" pan="-271.99" title="Hallway X" tilt="-15.74" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node2" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.443011" levelingroll="-0.2234">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node2">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="-0.443011" leveltilesize="510" levelingroll="-0.2234" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="79.8" projection="4" tilt="0" fov="76.67"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="79.8" fov="76.67" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Reception Area" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:14 am" comment="" nodeid="node2" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-191.14" tilt="-15.8" title="Elevator" url="{node1}" target="-4.4/-1.7/102.5" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-279.21" tilt="-26.6" title="Hallway I" url="{node3}" target="-28.3/0.0/120.0" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:14 am" comment="" title="Reception Area" latitude="" source="" copyright="" nodeid="node2" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node1}" skinid="ht_node" target="-4.4/-1.7/102.5" pan="-191.14" title="Elevator" tilt="-15.8" description="" id="Point01"/>
+      <hotspot url="{node3}" skinid="ht_node" target="-28.3/0.0/120.0" pan="-279.21" title="Hallway I" tilt="-26.6" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node3" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.0532973" levelingroll="-0.184635">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node3">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="-0.0532973" leveltilesize="510" levelingroll="-0.184635" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-28.32" projection="4" tilt="0" fov="120"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-28.32" fov="120" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway I" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:14 am" comment="" nodeid="node3" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-169.38" tilt="-30.22" title="Reception Area" url="{node2}" target="167.6/-13.3/76.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-83.92" tilt="-28.48" title="Locker Area" url="{node4}" target="-1.2/-3.7/120.0" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="2.34" tilt="-27.12" title="Hallway II" url="{node12}" target="-0.1/0.0/70.0" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:14 am" comment="" title="Hallway I" latitude="" source="" copyright="" nodeid="node3" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node2}" skinid="ht_node" target="167.6/-13.3/76.7" pan="-169.38" title="Reception Area" tilt="-30.22" description="" id="Point01"/>
+      <hotspot url="{node4}" skinid="ht_node" target="-1.2/-3.7/120.0" pan="-83.92" title="Locker Area" tilt="-28.48" description="" id="Point02"/>
+      <hotspot url="{node12}" skinid="ht_node" target="-0.1/0.0/70.0" pan="2.34" title="Hallway II" tilt="-27.12" description="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node4" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.168119" levelingroll="-0.0491081">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node4">
+    <input leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.168119" leveltilesize="510" levelingroll="-0.0491081" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0.74" projection="4" tilt="0" fov="120"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="0.74" fov="120" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Locker Area" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:15 am" comment="" nodeid="node4" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-180.38" tilt="-21.78" title="Hallway I" url="{node3}" target="-28.3/0.0/120.0" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-359.33" tilt="-31.26" title="Working Area I" url="{node5}" target="-1.1/-3.1/98.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:15 am" comment="" title="Locker Area" latitude="" source="" copyright="" nodeid="node4" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node3}" skinid="ht_node" target="-28.3/0.0/120.0" pan="-180.38" title="Hallway I" tilt="-21.78" description="" id="Point01"/>
+      <hotspot url="{node5}" skinid="ht_node" target="-1.1/-3.1/98.3" pan="-359.33" title="Working Area I" tilt="-31.26" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node5" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.404358" levelingroll="0.373273">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node5">
+    <input leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.404358" leveltilesize="510" levelingroll="0.373273" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0.83" projection="4" tilt="0" fov="76.67"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="0.83" fov="76.67" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Working Area I" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:15 am" comment="" nodeid="node5" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-187.85" tilt="-26.36" title="Locker Area" url="{node4}" target="-179.7/-8.5/120.0" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-78.94" tilt="-6.04" title="Working Area IA" url="{node6}" target="158.2/-3.9/98.3" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-271.88" tilt="-10.11" title="Working Area IB" url="{node7}" target="-0.0/-3.1/76.7" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:15 am" comment="" title="Working Area I" latitude="" source="" copyright="" nodeid="node5" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node4}" skinid="ht_node" target="-179.7/-8.5/120.0" pan="-187.85" title="Locker Area" tilt="-26.36" description="" id="Point01"/>
+      <hotspot url="{node6}" skinid="ht_node" target="158.2/-3.9/98.3" pan="-78.94" title="Working Area IA" tilt="-6.04" description="" id="Point02"/>
+      <hotspot url="{node7}" skinid="ht_node" target="-0.0/-3.1/76.7" pan="-271.88" title="Working Area IB" tilt="-10.11" description="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node6" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.00239964" levelingroll="0.000578422">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node6">
+    <input leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.00239964" leveltilesize="510" levelingroll="0.000578422" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="161.9" projection="4" tilt="0" fov="98.3"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="161.9" fov="98.3" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Working Area IA" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:16 am" comment="" nodeid="node6" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-185.77" tilt="-6.64" title="Working Area I" url="{node5}" target="87.1/-4.1/76.7" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:16 am" comment="" title="Working Area IA" latitude="" source="" copyright="" nodeid="node6" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node5}" skinid="ht_node" target="87.1/-4.1/76.7" pan="-185.77" title="Working Area I" tilt="-6.64" description="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node7" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.110767" levelingroll="-0.07781059999999999">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node7">
+    <input leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="-0.110767" leveltilesize="510" levelingroll="-0.07781059999999999" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0.03" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="0.03" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Working Area IB" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:16 am" comment="" nodeid="node7" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-181.71" tilt="-7.95" title="Working Area I" url="{node5}" target="-88.9/-8.6/83.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-357.78" tilt="-6.68" title="Working Area I Room" url="{node9}" target="-1.4/-5.0/120.0" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:16 am" comment="" title="Working Area IB" latitude="" source="" copyright="" nodeid="node7" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node5}" skinid="ht_node" target="-88.9/-8.6/83.7" pan="-181.71" title="Working Area I" tilt="-7.95" description="" id="Point01"/>
+      <hotspot url="{node9}" skinid="ht_node" target="-1.4/-5.0/120.0" pan="-357.78" title="Working Area I Room" tilt="-6.68" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node9" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.179588" levelingroll="-0.134396">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node9">
+    <input leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.179588" leveltilesize="510" levelingroll="-0.134396" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="1.18" projection="4" tilt="0" fov="120"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="1.18" fov="120" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Working Area I Room" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:18 am" comment="" nodeid="node9" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-246.03" tilt="-10.93" title="Working Area IB" url="{node7}" target="178.1/-6.1/70.0" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-7.48" tilt="-33.26" title="Server Room" url="{node10}" target="-32.8/-4.7/120.0" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:18 am" comment="" title="Working Area I Room" latitude="" source="" copyright="" nodeid="node9" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node7}" skinid="ht_node" target="178.1/-6.1/70.0" pan="-246.03" title="Working Area IB" tilt="-10.93" description="" id="Point01"/>
+      <hotspot url="{node10}" skinid="ht_node" target="-32.8/-4.7/120.0" pan="-7.48" title="Server Room" tilt="-33.26" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node10" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.491996" levelingroll="0.43596">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node10">
+    <input leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.491996" leveltilesize="510" levelingroll="0.43596" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-22.72" projection="4" tilt="0" fov="110.93"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-22.72" fov="110.93" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Server Room" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:18 am" comment="" nodeid="node10" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-262.21" tilt="-32.78" title="Working Area I Room" url="{node9}" target="108.3/-8.4/120.0" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:18 am" comment="" title="Server Room" latitude="" source="" copyright="" nodeid="node10" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node9}" skinid="ht_node" target="108.3/-8.4/120.0" pan="-262.21" title="Working Area I Room" tilt="-32.78" description="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node12" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.357921" levelingroll="-0.102414">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node12">
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.357921" leveltilesize="510" levelingroll="-0.102414" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-0.05" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-0.05" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway II" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:20 am" comment="" nodeid="node12" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-180.97" tilt="-26.68" title="Hallway I" url="{node3}" target="-177.8/-5.5/120.0" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="0.93" tilt="-14.02" title="Hallway III" url="{node13}" target="-2.1/0.0/83.7" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:20 am" comment="" title="Hallway II" latitude="" source="" copyright="" nodeid="node12" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node3}" skinid="ht_node" target="-177.8/-5.5/120.0" pan="-180.97" title="Hallway I" tilt="-26.68" description="" id="Point01"/>
+      <hotspot url="{node13}" skinid="ht_node" target="-2.1/0.0/83.7" pan="0.93" title="Hallway III" tilt="-14.02" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node13" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.461124" levelingroll="-0.320846">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node13">
+    <input leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.461124" leveltilesize="510" levelingroll="-0.320846" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-2.06" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-2.06" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway III" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:21 am" comment="" nodeid="node13" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-184.35" tilt="-14" title="Hallway II" url="{node12}" target="179.4/-3.4/70.0" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-271.27" tilt="-28.63" title="Pantry I" url="{node14}" target="-1.2/0.0/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-3" tilt="-13.68" title="Hallway IV" url="{node16}" target="43.7/-9.5/84.1" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:21 am" comment="" title="Hallway III" latitude="" source="" copyright="" nodeid="node13" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node12}" skinid="ht_node" target="179.4/-3.4/70.0" pan="-184.35" title="Hallway II" tilt="-14" description="" id="Point01"/>
+      <hotspot url="{node14}" skinid="ht_node" target="-1.2/0.0/90.9" pan="-271.27" title="Pantry I" tilt="-28.63" description="" id="Point02"/>
+      <hotspot url="{node16}" skinid="ht_node" target="43.7/-9.5/84.1" pan="-3" title="Hallway IV" tilt="-13.68" description="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node14" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.367992" levelingroll="-0.398045">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node14">
+    <input leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.367992" leveltilesize="510" levelingroll="-0.398045" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-1.16" projection="4" tilt="0" fov="90.87"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-1.16" fov="90.87" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Pantry I" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:21 am" comment="" nodeid="node14" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-175.37" tilt="-29.7" title="Hallway III" url="{node13}" target="87.9/-7.7/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-357.69" tilt="-17.84" title="Pantry II" url="{node15}" target="-2.4/-2.9/76.7" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:21 am" comment="" title="Pantry I" latitude="" source="" copyright="" nodeid="node14" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node13}" skinid="ht_node" target="87.9/-7.7/90.9" pan="-175.37" title="Hallway III" tilt="-29.7" description="" id="Point01"/>
+      <hotspot url="{node15}" skinid="ht_node" target="-2.4/-2.9/76.7" pan="-357.69" title="Pantry II" tilt="-17.84" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node15" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.49819" levelingroll="-0.310344">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node15">
+    <input leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.49819" leveltilesize="510" levelingroll="-0.310344" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="0" projection="4" tilt="0" fov="70"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="0" fov="70" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Pantry II" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:23 am" comment="" nodeid="node15" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-181.9" tilt="-19.46" title="Pantry I" url="{node14}" target="179.6/-5.0/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-4.26" tilt="-20.41" title="Hallway VII" url="{node22}" target="87.9/-8.5/98.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:23 am" comment="" title="Pantry II" latitude="" source="" copyright="" nodeid="node15" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node14}" skinid="ht_node" target="179.6/-5.0/90.9" pan="-181.9" title="Pantry I" tilt="-19.46" description="" id="Point01"/>
+      <hotspot url="{node22}" skinid="ht_node" target="87.9/-8.5/98.3" pan="-4.26" title="Hallway VII" tilt="-20.41" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node16" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.277163" levelingroll="0.06286799999999999">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node16">
+    <input leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.277163" leveltilesize="510" levelingroll="0.06286799999999999" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-1.78" projection="4" tilt="0" fov="76.67"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-1.78" fov="76.67" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway IV" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:23 am" comment="" nodeid="node16" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-271.77" tilt="-17.54" title="Hallway III" url="{node13}" target="175.5/-1.8/83.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-331.12" tilt="-40.56" title="Meeting Room" url="{node17}" target="0.1/-1.9/83.7" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-1.32" tilt="-11.29" title="Hallway V" url="{node18}" target="-1.0/-7.2/98.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:23 am" comment="" title="Hallway IV" latitude="" source="" copyright="" nodeid="node16" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node13}" skinid="ht_node" target="175.5/-1.8/83.7" pan="-271.77" title="Hallway III" tilt="-17.54" description="" id="Point01"/>
+      <hotspot url="{node17}" skinid="ht_node" target="0.1/-1.9/83.7" pan="-331.12" title="Meeting Room" tilt="-40.56" description="" id="Point02"/>
+      <hotspot url="{node18}" skinid="ht_node" target="-1.0/-7.2/98.3" pan="-1.32" title="Hallway V" tilt="-11.29" description="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node17" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="1.26039" levelingroll="-0.5342440000000001">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node17">
+    <input leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1.26039" leveltilesize="510" levelingroll="-0.5342440000000001" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-0.24" projection="4" tilt="0" fov="76.67"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-0.24" fov="76.67" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Meeting Room" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:24 am" comment="" nodeid="node17" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-127.69" tilt="-31.3" title="Hallway IV" url="{node16}" target="40.9/-5.9/83.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-16.12" tilt="-11.09" title="Hallway VI" url="{node21}" target="32.2/-3.9/106.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:24 am" comment="" title="Meeting Room" latitude="" source="" copyright="" nodeid="node17" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node16}" skinid="ht_node" target="40.9/-5.9/83.7" pan="-127.69" title="Hallway IV" tilt="-31.3" description="" id="Point01"/>
+      <hotspot url="{node21}" skinid="ht_node" target="32.2/-3.9/106.3" pan="-16.12" title="Hallway VI" tilt="-11.09" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node18" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="-0.06535100000000001" levelingroll="-0.00287055">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node18">
+    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="-0.06535100000000001" leveltilesize="510" levelingroll="-0.00287055" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="1.1" projection="4" tilt="0" fov="90.87"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="1.1" fov="90.87" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway V" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:25 am" comment="" nodeid="node18" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-357.51" tilt="-21.42" title="Hallway VI" url="{node21}" target="41.7/-5.5/98.3" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-51.82" tilt="-53.12" title="Room I" url="{node19}" target="-31.6/0.0/83.7" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-19.2" tilt="-30.57" title="Room II" url="{node20}" target="-22.9/-5.2/110.9" description="" skinid="ht_node"/>
-      <hotspot id="Point04" pan="-179.43" tilt="-12.12" title="Hallway IV" url="{node16}" target="49.2/-7.7/98.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:25 am" comment="" title="Hallway V" latitude="" source="" copyright="" nodeid="node18" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node21}" skinid="ht_node" target="41.7/-5.5/98.3" pan="-357.51" title="Hallway VI" tilt="-21.42" description="" id="Point01"/>
+      <hotspot url="{node19}" skinid="ht_node" target="-31.6/0.0/83.7" pan="-51.82" title="Room I" tilt="-53.12" description="" id="Point02"/>
+      <hotspot url="{node20}" skinid="ht_node" target="-22.9/-5.2/110.9" pan="-19.2" title="Room II" tilt="-30.57" description="" id="Point03"/>
+      <hotspot url="{node16}" skinid="ht_node" target="49.2/-7.7/98.3" pan="-179.43" title="Hallway IV" tilt="-12.12" description="" id="Point04"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node19" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.0233001" levelingroll="-0.09017260000000001">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node19">
+    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.0233001" leveltilesize="510" levelingroll="-0.09017260000000001" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-31.57" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-31.57" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Room I" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:25 am" comment="" nodeid="node19" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-168.04" tilt="-57.84" title="Hallway V" url="{node18}" target="-36.0/-11.5/90.9" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:25 am" comment="" title="Room I" latitude="" source="" copyright="" nodeid="node19" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node18}" skinid="ht_node" target="-36.0/-11.5/90.9" pan="-168.04" title="Hallway V" tilt="-57.84" description="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node20" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.900361" levelingroll="-0.286944">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node20">
+    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.900361" leveltilesize="510" levelingroll="-0.286944" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-22.87" projection="4" tilt="-5.16" fov="110.93"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-22.87" fov="110.93" tilt="-5.16" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Room II" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:25 am" comment="" nodeid="node20" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-222.38" tilt="-52.12" title="Hallway VI" url="{node21}" target="42.5/-11.1/98.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:25 am" comment="" title="Room II" latitude="" source="" copyright="" nodeid="node20" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node21}" skinid="ht_node" target="42.5/-11.1/98.3" pan="-222.38" title="Hallway VI" tilt="-52.12" description="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node21" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.577067" levelingroll="-0.500069">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node21">
+    <input leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.577067" leveltilesize="510" levelingroll="-0.500069" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-3.9" projection="4" tilt="0" fov="90.87"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-3.9" fov="90.87" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway VI" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:26 am" comment="" nodeid="node21" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-299.39" tilt="-39.82" title="Meeting Room" url="{node17}" target="0.1/-5.4/76.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-273.9" tilt="-19.65" title="Hallway V" url="{node18}" target="-179.6/-4.7/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-250.07" tilt="-36.28" title="Room II" url="{node20}" target="-22.9/-5.2/110.9" description="" skinid="ht_node"/>
-      <hotspot id="Point04" pan="-3.86" tilt="-19.58" title="Hallway VII" url="{node22}" target="-1.1/-4.7/83.7" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:26 am" comment="" title="Hallway VI" latitude="" source="" copyright="" nodeid="node21" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node17}" skinid="ht_node" target="0.1/-5.4/76.7" pan="-299.39" title="Meeting Room" tilt="-39.82" description="" id="Point01"/>
+      <hotspot url="{node18}" skinid="ht_node" target="-179.6/-4.7/90.9" pan="-273.9" title="Hallway V" tilt="-19.65" description="" id="Point02"/>
+      <hotspot url="{node20}" skinid="ht_node" target="-22.9/-5.2/110.9" pan="-250.07" title="Room II" tilt="-36.28" description="" id="Point03"/>
+      <hotspot url="{node22}" skinid="ht_node" target="-1.1/-4.7/83.7" pan="-3.86" title="Hallway VII" tilt="-19.58" description="" id="Point04"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node22" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.882344" levelingroll="-0.138129">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node22">
+    <input leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.882344" leveltilesize="510" levelingroll="-0.138129" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-2.01" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-2.01" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway VII" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:26 am" comment="" nodeid="node22" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-184.26" tilt="-13.78" title="Hallway VI" url="{node21}" target="42.1/-16.1/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-272.63" tilt="-22.16" title="Pantry II" url="{node15}" target="177.7/-4.9/76.7" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-1.4" tilt="-16.14" title="Hallway VIII" url="{node23}" target="-2.1/-4.4/90.9" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:26 am" comment="" title="Hallway VII" latitude="" source="" copyright="" nodeid="node22" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node21}" skinid="ht_node" target="42.1/-16.1/90.9" pan="-184.26" title="Hallway VI" tilt="-13.78" description="" id="Point01"/>
+      <hotspot url="{node15}" skinid="ht_node" target="177.7/-4.9/76.7" pan="-272.63" title="Pantry II" tilt="-22.16" description="" id="Point02"/>
+      <hotspot url="{node23}" skinid="ht_node" target="-2.1/-4.4/90.9" pan="-1.4" title="Hallway VIII" tilt="-16.14" description="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node23" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.427885" levelingroll="0.381654">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node23">
+    <input leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.427885" leveltilesize="510" levelingroll="0.381654" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-2.37" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-2.37" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway VIII" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:27 am" comment="" nodeid="node23" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-183.35" tilt="-15.16" title="Hallway VII" url="{node22}" target="175.7/-6.0/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-1.77" tilt="-20.47" title="Hallway IX" url="{node24}" target="-53.4/-8.6/98.3" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:27 am" comment="" title="Hallway VIII" latitude="" source="" copyright="" nodeid="node23" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node22}" skinid="ht_node" target="175.7/-6.0/90.9" pan="-183.35" title="Hallway VII" tilt="-15.16" description="" id="Point01"/>
+      <hotspot url="{node24}" skinid="ht_node" target="-53.4/-8.6/98.3" pan="-1.77" title="Hallway IX" tilt="-20.47" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node24" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0" levelingroll="0">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node24">
+    <input leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0" leveltilesize="510" levelingroll="0" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-3.95" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-3.95" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway IX" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:27 am" comment="" nodeid="node24" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-183.48" tilt="-18.78" title="Hallway VIII" url="{node23}" target="176.1/-3.4/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-92.85" tilt="-28.2" title="Room III" url="{node25}" target="-1.9/-4.3/90.9" description="" skinid="ht_node"/>
-      <hotspot id="Point03" pan="-361.66" tilt="-27.56" title="Hallway X" url="{node27}" target="-9.9/-2.3/90.9" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:27 am" comment="" title="Hallway IX" latitude="" source="" copyright="" nodeid="node24" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node23}" skinid="ht_node" target="176.1/-3.4/90.9" pan="-183.48" title="Hallway VIII" tilt="-18.78" description="" id="Point01"/>
+      <hotspot url="{node25}" skinid="ht_node" target="-1.9/-4.3/90.9" pan="-92.85" title="Room III" tilt="-28.2" description="" id="Point02"/>
+      <hotspot url="{node27}" skinid="ht_node" target="-9.9/-2.3/90.9" pan="-361.66" title="Hallway X" tilt="-27.56" description="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node25" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.07759340000000001" levelingroll="-0.0812375">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node25">
+    <input leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.07759340000000001" leveltilesize="510" levelingroll="-0.0812375" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-0.37" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-0.37" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Room III" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:28 am" comment="" nodeid="node25" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-182.19" tilt="-23.97" title="Hallway IX" url="{node24}" target="-135.7/-7.8/98.7" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-2.59" tilt="-16.22" title="Room IIIA" url="{node26}" target="-0.4/-1.6/99.0" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:28 am" comment="" title="Room III" latitude="" source="" copyright="" nodeid="node25" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node24}" skinid="ht_node" target="-135.7/-7.8/98.7" pan="-182.19" title="Hallway IX" tilt="-23.97" description="" id="Point01"/>
+      <hotspot url="{node26}" skinid="ht_node" target="-0.4/-1.6/99.0" pan="-2.59" title="Room IIIA" tilt="-16.22" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node26" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.350775" levelingroll="-0.231676">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node26">
+    <input leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.350775" leveltilesize="510" levelingroll="-0.231676" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-0.93" projection="4" tilt="0" fov="83.65"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-0.93" fov="83.65" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Room IIIA" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:28 am" comment="" nodeid="node26" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-175.76" tilt="-17.05" title="Room III" url="{node25}" target="176.0/-4.1/91.2" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:28 am" comment="" title="Room IIIA" latitude="" source="" copyright="" nodeid="node26" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node25}" skinid="ht_node" target="176.0/-4.1/91.2" pan="-175.76" title="Room III" tilt="-17.05" description="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
-  <panorama id="node27" hideabout="1">
-    <input levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1440" leveltilesize="510" levelbias="0.400" height="1440" levelingpitch="0.905118" levelingroll="0.130456">
-      <level preload="0" width="1440" predecode="0" height="1440"/>
-      <level preload="0" width="720" predecode="0" height="720"/>
-      <level preload="1" width="360" predecode="1" height="360"/>
+  <panorama hideabout="1" id="node27">
+    <input leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0.905118" leveltilesize="510" levelingroll="0.130456" height="1440" levelbiashidpi="1.000" width="1440">
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-9.24" projection="4" tilt="0" fov="76.67"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <start pan="-9.24" fov="76.67" tilt="0" projection="4"/>
+      <flyin pan="0" fov="170" tilt="-90" projection="9"/>
       <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" tilt="90" scaletofit="1" fov="120" fovfisheye="360" fovstereographic="270"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fov="120" tilt="90" fovstereographic="270"/>
     </view>
-    <userdata tags="one summit 34th floor" author="" source="" longitude="" title="Hallway X" latitude="" copyright="" description="" info="" datetime="31/03/2022 10:29 am" comment="" nodeid="node27" customnodeid="" heading="0"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" textcolor="0x000000" backgroundalpha="1" border="1" width="180" background="1" textalpha="1" height="20" backgroundcolor="0xffffff" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" pan="-280.42" tilt="-25.76" title="Hallway IX" url="{node24}" target="-132.2/-11.5/98.3" description="" skinid="ht_node"/>
-      <hotspot id="Point02" pan="-7.27" tilt="-17.89" title="Elevator" url="{node1}" target="-4.1/-0.0/102.5" description="" skinid="ht_node"/>
+    <userdata longitude="" author="" datetime="31/03/2022 10:29 am" comment="" title="Hallway X" latitude="" source="" copyright="" nodeid="node27" description="" tags="one summit 34th floor" customnodeid="" heading="0" info=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" wordwrap="1" background="1" borderradius="1" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1" height="20" border="1" width="180"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot url="{node24}" skinid="ht_node" target="-132.2/-11.5/98.3" pan="-280.42" title="Hallway IX" tilt="-25.76" description="" id="Point01"/>
+      <hotspot url="{node1}" skinid="ht_node" target="-4.1/-0.0/102.5" pan="-7.27" title="Elevator" tilt="-17.89" description="" id="Point02"/>
     </hotspots>
     <media/>
-    <transition enabled="1" zoomin="0" softedge="0" zoomafterinfov="90" zoomoutpause="1" type="crossdissolve" zoomspeed="2" zoomafteroutfov="20" zoomout="0" blendtime="1" blendcolor="0x000000" zoomfov="20"/>
-    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertwheel="1" rubberband="0" lockedkeyboardzoom="0" contextvr="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" hideabout="1" contextfullscreen="1" contextprojections="0" invertcontrol="1">
+    <transition zoomspeed="2" blendtime="1" zoomfov="20" blendcolor="0x000000" enabled="1" zoomout="0" zoomoutpause="1" type="crossdissolve" zoomafteroutfov="20" zoomin="0" softedge="0" zoomafterinfov="90"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedwheel="0" lockedmouse="0" contextfullscreen="1" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" hideabout="1" simulatemass="1" lockedkeyboard="0" rubberband="0" invertwheel="1" contextvr="0">
       <menulink url="https://tfa.ph" text="&lt;img src=&quot;images/logo.png&quot; alt=&quot;TFA Logo&quot; height=&quot;85&quot; width=&quot;135&quot;>"/>
     </control>
   </panorama>
   <masternode>
-    <userdata tags="" author="" source="" longitude="" title="" latitude="" copyright="" description="" info="" datetime="" comment="" nodeid="master" customnodeid="" heading="0"/>
+    <userdata longitude="" author="" datetime="" comment="" title="" latitude="" source="" copyright="" nodeid="master" description="" tags="" customnodeid="" heading="0" info=""/>
   </masternode>
 </tour>
