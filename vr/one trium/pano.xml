@@ -952,10 +952,11 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" wordwrap="1" backgroundalpha="1" bordercolor="0x000000" width="180" borderradius="1" enabled="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" textcolor="0x000000" background="1" border="1"/>
       <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot pan="-67.15" url="{node26}" target="-5.0/0.0/77.3" tilt="-8.01" id="Point01" skinid="ht_node" title="Open Deck" description=""/>
+      <hotspot pan="-67.64" url="{node26}" target="-5.0/0.0/77.3" tilt="-3.95" id="Point01" skinid="ht_node" title="Open Deck" description=""/>
       <hotspot pan="-67.29" url="{node36}" target="174.9/-10.9/70.2" tilt="-18.25" id="Point02" skinid="ht_node" title="Lobby Elevator" description=""/>
       <hotspot pan="-359.24" url="{node48}" target="75.1/-2.6/70.0" tilt="-7.66" id="Point03" skinid="ht_node" title="Parking Lot I" description=""/>
       <hotspot pan="-181.26" url="{node43}" target="-9.8/-7.0/64.7" tilt="-4.86" id="Point04" skinid="ht_node" title="Parking Lot V" description=""/>
+      <hotspot pan="-67.35" url="{node8}" target="1.1/0.0/76.9" tilt="-11.53" id="Point05" skinid="ht_node" title="Typical Office Floor" description=""/>
     </hotspots>
     <media/>
     <transition zoomout="0" blendcolor="0x000000" zoomfov="20" type="crossdissolve" zoomspeed="2" blendtime="1" zoomin="0" zoomoutpause="1" enabled="1" softedge="0" zoomafterinfov="90" zoomafteroutfov="20"/>

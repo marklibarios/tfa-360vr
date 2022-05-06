@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: tfa_default_skin.ggsk
-// Generated 2022-05-06T10:23:43
+// Generated 2022-05-06T10:29:51
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
